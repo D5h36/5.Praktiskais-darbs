@@ -1,0 +1,11 @@
+1. Salīdzinašana
+    Uztaisīt ta lai paradas menesis un gads un tad visu distriktu tiesu skaits
+
+2. Kopā
+    Uztaisīt lai redz cik ir tiesas notikusas kopa pa visu gadu
+
+3. Salidzinat distriktus
+    Uztaisit lai var izveleties vienu menesi no diviem distriktiem un salidzinat kam vairak
+    Var arī salīdzināt visus vienlaicigi 
+
+4.??

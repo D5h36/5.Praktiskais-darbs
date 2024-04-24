@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/main.js" type="module"></script>
+</head>
+<body>
+   <div class="main">
+    <div class="info">
+        <h1 class="info-title">Tiesas sēdes Latvijā</h1>
+        <p class="parag-info">Šie ir dati par tiesas sēdēm Latvijā periodā no 2021.gada līdz 2022.gadam.</p>
+    </div>
+
+    <div class="options">
+        <div class="button-Sal">
+            <a class="butt-Sal" href="/"><span class="butt-Sal-span">Salīdzināšana</span></a>
+        </div>
+        <div class="button-Kop">
+            <a class="butt-Kop" href="/"><span class="butt-Kop-span">Kopā</span></a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="salidzinasana">
+        <div class="men-text">
+            <p class="men-parag">Izvēlaties mēnesi</p>
+        </div>
+        <div class="men-dropbox">
+            <select class="dropdown" name="menesi" id="months">
+                <option value="Novembris">Novembris</option>
+                <option value="Decembris">Decembris</option>
+                <option value="Janvaris">Janvāris</option>
+                <option value="Februaris">Februāris</option>
+                <option value="Marts">Marts</option>
+                <option value="Aprilis">Aprīlis</option>
+                <option value="Maijs">Maijs</option>
+                <option value="Junijs">Jūnijs</option>
+                <option value="Julijs">Jūlijs</option>
+                <option value="Augusts">Augusts</option>
+                <option value="Septembris">Septembris</option>
+                <option value="Oktobris">Oktobris</option>
+            </select>
+        </div>
+        <div class="button-Salidzinat">
+            <a class="butt-Salidzinat" href="/"><span class="butt-Salidzinat-span">Salīdzināt</span></a>
+        </div>
+        <div class="result-text-liel">
+            <p class="result-parag-leils">Atbilde:</p>
+        </div>
+        <div class="result-textbox-liels">
+            <input class="result-textbox-l" type="text" id="result-textbox-big" readonly>
+        </div>
+        <div class="result-textbox-mazs">
+            <input class="result-textbox-m" type="text" id="result-textbox-small" readonly>
+        </div>
+        <div class="description">
+            <p class="sal-descr">Šeit ir iespējams salīdzināt tiesu apgabalu kuram mēnesī bija visvairāk vai vismazāk notikušu tiesu.</p>
+        </div>
+
+    </div>
+   </div>
+</body>
+</html>
