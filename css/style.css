@@ -13,7 +13,7 @@ p{
     font-family: "Quicksand", sans-serif;
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-rows: repeat(24, 1fr);
 }
 
 .info{
@@ -42,94 +42,6 @@ p{
     text-align: center;
 }
 
-.options{
-    grid-row: 5;
-    grid-column: 2 /span 4;
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: subgrid;
-    grid-template-rows: subgrid;
-
-    margin-top: 0px;
-}
-
-
-.button-Sal{
-    grid-row: 1;
-    grid-column: 2;
-    display: flex;
-    justify-content: center;
-    
-}
-.butt-Sal{
-    background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
-    border-radius: 40px;
-    box-sizing: border-box;
-    color: #00a84f;
-    display: block;
-    height: 50px;
-    font-size: 1.4em;
-    padding: 4px;
-    position: relative;
-    text-decoration: none;
-    width: 7em;
-    z-index: 2;
-}
-.butt-Sal:hover{
-    color: #fff;
-}
-.butt-Sal .butt-Sal-span{
-    align-items: center;
-    background: #0e0e10;
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    transition: background 0.5s ease;
-    width: 100%;
-}
-.butt-Sal:hover .butt-Sal-span {
-    background: transparent;
-  }
-
-
-  .button-Kop{
-    grid-row: 1;
-    grid-column: 3;
-    display: flex;
-    justify-content: center;
-}
-.butt-Kop{
-    background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
-    border-radius: 40px;
-    box-sizing: border-box;
-    color: #00a84f;
-    display: block;
-    height: 50px;
-    font-size: 1.4em;
-    padding: 4px;
-    position: relative;
-    text-decoration: none;
-    width: 7em;
-    z-index: 2;
-}
-.butt-Kop:hover{
-    color: #fff;
-}
-.butt-Kop .butt-Kop-span{
-    align-items: center;
-    background: #0e0e10;
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    transition: background 0.5s ease;
-    width: 100%;
-}
-.butt-Kop:hover .butt-Kop-span {
-    background: transparent;
-  }
 
 .salidzinasana{
     grid-row: 7 /span 4;
@@ -232,5 +144,90 @@ p{
     grid-column: 1 /span 4;
 }
 .sal-descr{
+    text-align: center;
+}
+
+
+.kopa-gad{
+    grid-row: 12 /span 4;
+    grid-column: 2 /span 4;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+    margin-top: 0px;
+}
+.kopgad-text{
+    grid-row: 1;
+    grid-column: 1;
+
+}
+.kopgad-parag{
+    text-align: center;
+}
+.kopgad-dropbox{
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.kopgad-button{
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+}
+.kopgad-butt{
+    background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #00a84f;
+    display: block;
+    height: 50px;
+    font-size: 1.4em;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 7em;
+    z-index: 2;
+}
+.kopgad-butt:hover{
+    color: #fff;
+}
+.kopgad-butt .kopgad-span{
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+}
+.kopgad-butt:hover .kopgad-span {
+    background: transparent;
+  }
+.kopgad-atbilde{
+    grid-row: 1;
+    grid-column: 3;
+    text-align: center;
+}
+.kopgad-textbox{
+    grid-row: 2/span 2;
+    grid-column: 3 / span 2;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+.kopgad-res-textbox{
+    width: 300px;
+}
+.kopgad-descr{
+    grid-row: 4;
+    grid-column: 1 /span 4;
+}
+.kopgad-desc-par{
     text-align: center;
 }
