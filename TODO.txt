@@ -3,7 +3,7 @@
 
 2. Kopā
     Uztaisīt lai redz cik ir tiesas notikusas kopa pa visu gadu
-    kopa viena menesi
+    kopa viena menesi 
     kopa
 
 3. Salidzinat distriktus
